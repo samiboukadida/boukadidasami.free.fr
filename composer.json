@@ -1,0 +1,20 @@
+{
+    "name": "samiboukadida/mvc",
+    "description": "mvc application",
+    "type": "project",
+    "keywords": [
+        "framework",
+        "mvc"
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "pimple/pimple":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MVC\\": ["Classes/","Controllers/","Models/"]
+        }
+
+    }
+
+}
