@@ -6,7 +6,7 @@
  * Author: Nathan Davison
  */
 // Composer autoloading
-echo phpinfo(); die();
+//echo phpinfo(); die();
 use MVC\Loader;
 include __DIR__ . '/vendor/autoload.php';
 
